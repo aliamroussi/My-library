@@ -1,0 +1,166 @@
+*{
+    font-family: Cairo;
+}
+body{
+    margin: 0;
+}
+main{
+    margin-top: 62px;
+}
+header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 111;
+    width: 100%;
+}
+
+header ul{
+    display: flex;
+    position: relative;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.loge{
+    font-family: Cairo;
+    font-size: 30px;
+    font-weight: bold;
+}
+span{
+    color: #0079FF;
+}
+.home{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1333px;
+    height: 00px;
+    min-height: 50vh;
+    line-height: 1px;
+    background-image: url(img/download_image_1705159974240.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.b-h a{
+    color: white;
+
+}
+.b-h {
+    padding: 5px 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+  
+.b-h {
+    border: 2px solid #0079FF;
+    z-index: 1;
+    color: white;
+}
+  
+.b-h:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: #0079FF;
+    transition: all 0.3s ease;
+}
+  
+.b-h:hover {
+    color: white;
+}
+  
+.b-h:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+  
+.b-h:active {
+    top: 2px;
+}
+h1{
+    font-size: 30px;
+}
+.books{
+    vertical-align: middle;
+    text-align: center;
+    background-color: gainsboro;
+    margin-top: 100px;
+}
+.boo-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 25px;
+    display: inline-block;
+}
+.img img{
+    width: 200px;
+}
+.p-1{
+    font-size: 17px;
+    font-weight: 200;
+}
+.p-2{
+    color: #0079FF;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.novels{
+    vertical-align: middle;
+    text-align: center;
+    background-color: white;
+    margin-top: 100px;
+}
+.novels .boo-1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 20px 25px;
+    display: inline-block;
+}
+.contact{
+    text-align: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(187, 187, 187);
+}
